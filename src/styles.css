@@ -3,13 +3,12 @@
     padding:0;
     box-sizing: border-box;
 }
-
 body{
     padding: 15px;
     text-align:center;
 }
-
-.container{
+.container
+{
     position: absolute;
     width:100%;
     top:50%;
@@ -27,6 +26,7 @@ body{
 
 .fa-star-o::before {
     content: '\f006';
+    font-size: 50px;
 }
 
 .selected-rating-container
@@ -40,4 +40,13 @@ body{
 {
     font-size:20px;
     font-weight:bold;
+}
+.fa-star:hover{
+    cursor: poiner;
+}
+.fa-star::before
+{
+    content:'\f005';
+    color:yellow;
+    font-size:50px;
 }
